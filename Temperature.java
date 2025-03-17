@@ -21,18 +21,17 @@ public class Temperature{
             inputUnit = keyboard.next().toUpperCase().charAt(0);
 
             while(!(inputUnit=='C'||inputUnit=='F')){
-                System.out.print("Invalid input, enter a C or F");
-                inputTemp = keyboard.nextInt();
+                System.out.print("Invalid input, enter a C or F: ");
                 inputUnit = keyboard.next().toUpperCase().charAt(0);
             }
             if(inputUnit=='F'){
                 output = (inputTemp - 32)*(5.0/9.0);
-                System.out.printf("%d%c converted is %.1fC\n", inputTemp,inputUnit,output);
+                System.out.printf("%d %c converted is %.1f C\n", inputTemp,inputUnit,output);
             }
 
             else{
                 output = inputTemp * 9.0/5.0 + 32;
-                System.out.printf("%d%c converted is %.1fC\n", inputTemp,inputUnit,output);
+                System.out.printf("%d %c converted is %.1f F\n", inputTemp,inputUnit,output);
             }
             System.out.print("Enter yes to calculate another temp: ");
         } while (keyboard.next().equalsIgnoreCase("yes"));

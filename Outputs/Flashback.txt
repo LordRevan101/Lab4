@@ -1,0 +1,11 @@
+What is the maximum width you want your star to be? 8
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+     

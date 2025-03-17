@@ -1,0 +1,9 @@
+Enter a series of words to test as palindromes, end with quit
+smooth jazz java potato chips quit
+smooth does not work
+jazz does not work
+java works
+potato works
+chips does not work
+Enter yes to process another line?
+no

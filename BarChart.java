@@ -18,21 +18,21 @@ public class BarChart {
         num3 = random.nextInt(1000);
 
         if (num1<100){
-            str1="<100 no stars";
+            str1=" <100 no stars";
         } else {
             for (int i=0;i<(num1/100);i++){
                 str1=str1+"*";
             }
         }
         if (num2<100){
-            str2="<100 no stars";
+            str2=" <100 no stars";
         } else {
             for (int i=0;i<(num2/100);i++){
                 str2=str2+"*";
             }
         }
         if (num3<100){
-            str3="<100 no stars";
+            str3=" <100 no stars";
         } else {
             for (int i=0;i<(num3/100);i++){
                 str3=str3+"*";

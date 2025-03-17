@@ -1,0 +1,8 @@
+Number 1 is: 70
+Number 2 is: 819
+Number 3 is: 474
+
+Number Bar Chart
+Number 1:<100 no stars
+Number 2: ********
+Number 3: ****

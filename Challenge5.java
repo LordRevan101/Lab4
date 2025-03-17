@@ -11,13 +11,13 @@ public class Challenge5 {
         String phrase, characterinput;
         char character, checkchar;
         int n, z=0, a=0;
-        
+
         phrase = JOptionPane.showInputDialog("Please enter a phrase");
         characterinput = JOptionPane.showInputDialog("Please enter a single character");
         character = characterinput.charAt(0);
-        
+
         n = phrase.length();
-        
+
         for (int i=0;i<=(n-1);i++){
             checkchar = phrase.charAt(z);
             if (checkchar==character){
@@ -25,7 +25,7 @@ public class Challenge5 {
             }
             z++;
         }
-        JOptionPane.showMessageDialog(null,"The phrase: " + phrase + "\nThe character " + character + " appears " + a + " times.");
+        JOptionPane.showMessageDialog(null,"The phrase: " + phrase + "\nThe character '" + character + "' appears " + a + " times.");
         System.exit(0);
     }
 }

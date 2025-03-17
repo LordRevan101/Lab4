@@ -13,28 +13,25 @@ public class ReverseWord{
 
         Scanner keyboard = new Scanner (System.in);
         do{
-        System.out.print("Enter a series of words to test as palindromes, end with quit");
-        word = keyboard.next().toLowerCase();
-            while(!word.equals("quit")){
-            firstLetter = word.charAt(0);
-            remaining = word.substring(1);
-            combined = remaining + firstLetter;
-            flipped = "";
-            for (int i=combined.length()-1;i>=0;i--){
-                flipped+=combined.charAt(i);
-            }
-            if (word.equals(flipped)) {
-                System.out.println(word + " works");
-            }
-            else {
-                System.out.println(word + " does not work");
-            }
+            System.out.println("Enter a series of words to test as palindromes, end with quit");
             word = keyboard.next().toLowerCase();
+            while(!word.equals("quit")){
+                firstLetter = word.charAt(0);
+                remaining = word.substring(1);
+                combined = remaining + firstLetter;
+                flipped = "";
+                for (int i=combined.length()-1;i>=0;i--){
+                    flipped+=combined.charAt(i);
+                }
+                if (word.equals(flipped)) {
+                    System.out.println(word + " works");
+                }
+                else {
+                    System.out.println(word + " does not work");
+                }
+                word = keyboard.next().toLowerCase();
             }
-        System.out.println("Enter yes to process another line?");
+            System.out.println("Enter yes to process another line?");
         } while(keyboard.next().equalsIgnoreCase("yes"));
-        
-
-        ////Optional do while, print msg to process another line (ie type yes)
-    }//while to see if desired input was word to repeat, .use equalsIgnoreCase());
+    }
 }

@@ -9,8 +9,7 @@ import java.util.Scanner;
 public class Flashback {
     public static void main (String[] args){
         int width, space, stars=1;
-        
-        
+
         Scanner input = new Scanner(System.in);
         System.out.print("What is the maximum width you want your star to be? ");
         width = input.nextInt();

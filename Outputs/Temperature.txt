@@ -1,0 +1,10 @@
+Enter a whole number, a space, and a C or F to convert to celsius: 100 V
+Invalid input, enter a C or F: F
+100 F converted is 37.8 C
+Enter yes to calculate another temp: yes
+Enter a whole number, a space, and a C or F to convert to celsius: 212 F
+212 F converted is 100.0 C
+Enter yes to calculate another temp: yes
+Enter a whole number, a space, and a C or F to convert to celsius: 0 C
+0 C converted is 32.0 F
+Enter yes to calculate another temp: no
